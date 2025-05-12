@@ -32,6 +32,25 @@ Alternatively, if you need to avoid using `go build`, then just use
 $ go run .
 ``
 
+## Interacting with wfreq
+
+`wfreq` can be used in two ways: (a) the first way is to directly invoke `wfreq` with the command `./wfreq`; and, (b) the second way is to pipe data from a command like `cat`.
+
+To follow the second case, you can issue a command like
+
+``
+$ cat "Hello, this is me!" | ./wfreq
+``
+
+On my machine, the command above outputs
+
+``
+      1 Hello,
+      1 is
+      1 me
+      1 this
+``
+
 ## Unit tests
 
 I supply one file that provides a few toy tests for the routines involved in the implementation of `wfreq`. These tests are meant to provide some example invokations of the routines in `wfreq`, but are not essentially a least set of necessary tests that can verify that the original Linux pipe works correctly (see the top of this file).
