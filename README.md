@@ -58,7 +58,7 @@ Alternatively, you can combine `echo` with `./wfreq` via the command
 $ echo "Hello, brave world!" | ./wfreq
 ``
 
-## Building wfreq as HTTP web service with docker
+## Building wfreq as a HTTP web service with docker
 
 The main directory in this repo contains a `Dockerfile`. This can be used to build a web service around wfreq which can be accessible through a docker container.
 
