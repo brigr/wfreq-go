@@ -36,6 +36,14 @@ $ go run .
 
 I supply one file that provides a few toy tests for the routines involved in the implementation of `wfreq`. These tests are meant to provide some example invokations of the routines in `wfreq`, but are not essentially a least set of necessary tests that can verify that the original Linux pipe works correctly (see the top of this file).
 
+To run unit tests, issue the command
+
+``
+$ go test -v
+``
+
+Note that the above command enables `verbose` output. Remove `-v` if you need more terse output.
+
 ## License
 
 This repository is provided under the MIT license. It is authored by Sotiris Karavarsamis (s.karavarsamis@gmail.com).
