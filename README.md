@@ -32,7 +32,7 @@ Alternatively, if you need to avoid using `go build`, then just use
 $ go run .
 ``
 
-## Interacting with wfreq
+## Interacting with wfreq using IPC
 
 `wfreq` can be used in two ways: (a) the first way is to directly invoke `wfreq` with the command `./wfreq`; and, (b) the second way is to pipe data from a command like `cat`.
 
