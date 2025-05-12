@@ -58,6 +58,16 @@ Alternatively, you can combine `echo` with `./wfreq` via the command
 $ echo "Hello, brave world!" | ./wfreq
 ``
 
+## Building wfreq as HTTP web service with docker
+
+The main directory in this repo contains a `Dockerfile`. This can be used to build a web service around wfreq which can be accessible through a docker container.
+
+You can build a docker image using
+
+```
+$ docker build -t yourusername/docker-freq-ws .
+```
+
 ## Unit tests
 
 I supply one file that provides a few toy tests for the routines involved in the implementation of `wfreq`. These tests are meant to provide some example invokations of the routines in `wfreq`, but are not essentially a least set of necessary tests that can verify that the original Linux pipe works correctly (see the top of this file).
