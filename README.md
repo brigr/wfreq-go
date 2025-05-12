@@ -1,4 +1,4 @@
-# Word frequency counter application in Go
+# Word frequency counting application in Go
 
 This repository provides `wfreq`, a Go implementation of a word frequency counter.
 
