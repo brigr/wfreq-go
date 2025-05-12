@@ -65,7 +65,7 @@ The main directory in this repo contains a `Dockerfile`. This can be used to bui
 You can build a docker image using
 
 ```
-$ docker build -t yourusername/docker-freq-ws .
+$ docker build -t yourusername/docker-wfreq-ws .
 ```
 
 ## Unit tests
