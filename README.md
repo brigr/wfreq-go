@@ -39,7 +39,7 @@ $ go run .
 To follow the second case, you can issue a command like
 
 ```
-$ echo "Hello, world!" > myfile.txt
+$ echo "Hello, this is me." > myfile.txt
 $ cat myfile.txt | ./wfreq
 ```
 
@@ -48,7 +48,7 @@ On my machine, the command above outputs
 ```
       1 Hello,
       1 is
-      1 me
+      1 me.
       1 this
 ```
 
